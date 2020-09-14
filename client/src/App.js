@@ -36,7 +36,6 @@ const App = () => {
     <div>
       <SavedList list={savedList} />
       <div>Replace this Div with your Routes</div>
-      <Router>
       <Route exact path="/">
         <MovieList />
       </Route>
